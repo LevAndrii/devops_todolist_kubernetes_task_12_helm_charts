@@ -27,9 +27,9 @@ mysql:
 
   affinities:
     podAntiAffinity:
-        key: "app"
-        operator: In
-        values: "mysql"
+      key: "app"
+      operator: In
+      values: "mysql"
     nodeAffinity:
       key: "app"
       operator: In
